@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mt-5 bg-white">Welcome to Blog Home!</h1>
+    <p class="text-center mb-5 bg-white">A Bootstrap 5 starter layout for you next blog homepage</p>
+    <div class="row">
+      <div class="col-8">
+        <div class="card" style="width: 100%;">
+          <img src="./images/img1.jpg" class="card-img-top" alt="post picture">
+          <div class="card-body">
+            <span class="card-span">January 1, 2022</span>
+            <h3 class="card-title">Featured Post Title</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, gni in vel delectus labore provident recusandae dolorum sed! om a generic superhero!</p>
+            <a href="#" class="btn btn-primary">Read more -></a>
+          </div>
+        </div>
+        <div class="d-flex pt-3">
+        <div class="card" style="width: 100%;">
+          <img src="./images/img2.jpg" class="card-img-top" alt="none picture">
+          <div class="card-body">
+            <span>January 1, 2022</span>
+            <h5 class="card-title">Post title</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi distinctio assumenda culpa et, omnis atque!</p>
+            <a href="#" class="btn btn-primary">Read more -></a>
+          </div>
+        </div>
+        <div class="card mx-3" style="width: 100%;">
+          <img src="./images/img2.jpg" class="card-img-top" alt="none picture">
+          <div class="card-body">
+            <span>January 1, 2022</span>
+            <h5 class="card-title">Post title</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi distinctio assumenda culpa et, omnis atque!</p>
+            <a href="#" class="btn btn-primary">Read more -></a>
+          </div>
+        </div>
+        </div>
+        <nav>
+          <ul class="pagination pt-3 offset-4">
+            <li class="page-item"> 
+              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+            </li>
+            <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+            <li class="page-item" ><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">...</a></li>
+            <li class="page-item"><a class="page-link" href="#">15</a></li>
+            <li class="page-item"><a class="page-link" href="#">Older</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-4">
+        <div class="card mb-4">
+          <div class="card-header">Search</div>
+          <div class="card-body">
+              <form action="https://echo.htmlacademy.ru/" method="post">
+              <div class="d-flex">
+                <input type="text" class="form-control" name="User" placeholder="Enter search team... " aria-label="Enter search team...">
+                <button type="submit" class="btn btn-primary border-0">Go!</button>
+              </div>
+              </form>
+          </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi omnis placeat, esse sed illum consectetur.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum dignissimos tenetur perspiciatis, fugiat quis.ional website published on the World Wide Web consisting of discrete, often informal diary-style text Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus dolorum corrupti quidem distinctio, voluptatem facilis. <code>accordion-body</code>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, ipsam.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla debitis suscipit hic. Eaque, neque voluptatum.</strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat ad repudiandae tempore vel quibusdam. At, velit. Incidunt debitis ipsam illo, sequi tempora id distinctio, dolorum dignissimos quod accusantium magnam illum?<code>asan</code>Posts can be shared
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ducimus! Itaque illo numquam commodi nam, quasi voluptatem at perferendis ratione repudiandae</strong> ulla saepe! Atque provident aut cum. Recusandae id quisquam quaerat?<code>Lorem, ipsum dolor. </code>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error veniam unde inventore aliquam fuga nulla molestiae debitis quae itaque? Architecto!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
